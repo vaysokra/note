@@ -1,9 +1,9 @@
-### linux 
-1. set new password
+## linux 
+####1. set new password
 ```
 sudo passwd root
 ```
-2. if APT package index can often become outdated as the packages or **sudo apt-get update** is error and interrupt :
+####2. if APT package index can often become outdated as the packages or **sudo apt-get update** is error and interrupt :
 ```
 sudo rm -rf /var/lib/apt/lists/*
 sudo apt-get update
