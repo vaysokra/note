@@ -1,4 +1,6 @@
 ## linux 
+### main command 
+  - `lsof` : list of processes that may be using the files .**ex**:`sudo lsof /var/lib/dpkg/lock-frontend` 
 #### 1. set new password
 ```
 sudo passwd root
