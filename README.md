@@ -6,6 +6,7 @@
 sudo passwd root
 ```
 #### 2. if APT package index can often become outdated as the packages or `sudo apt-get update` is error and interrupt :
+###### before follow code below please check networking (if use vmware) or virual machine
 ```
 sudo rm -rf /var/lib/apt/lists/*
 sudo apt-get update
